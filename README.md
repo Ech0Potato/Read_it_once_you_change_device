@@ -44,7 +44,7 @@ Link2: https://gist.github.com/laispace/666dd7b27e9116faece6#gistcomment-2652557
 ```gitconfig
 Host github.com
     User git
-    ProxyCommand nc -v -x 127.0.0.1:1086 %h %p
+    ProxyCommand nc -v -x 127.0.0.1:7890 %h %p
     
 ```
 
@@ -55,5 +55,5 @@ Host github.com
 ```gitconfig
 Host github.com
      User git
-     ProxyCommand connect -S 127.0.0.1:1086 %h %p
+     ProxyCommand connect -S 127.0.0.1:7890 %h %p
 ```

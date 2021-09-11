@@ -18,11 +18,11 @@
 添加字段：
 ```ini
 [ssh]
-    proxy = socks5://127.0.0.1:7890
+       proxy = socks5://127.0.0.1:7890
 [http]
-	  proxy = http://127.0.0.1:7890
+       proxy = http://127.0.0.1:7890
 [https]
-	  proxy = https://127.0.0.1:7890
+       proxy = https://127.0.0.1:7890
 ```
 
 也可以参照下面的配置方式，为 github.com 这个 Host 专门配置 SSH 代理。

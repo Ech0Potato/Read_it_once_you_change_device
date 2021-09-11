@@ -37,6 +37,7 @@ Link2: https://gist.github.com/laispace/666dd7b27e9116faece6#gistcomment-2652557
 即：
 
 **Mac OS 平台**
+
 因为 Mac OS 为 Unix-like 系统，所以具备 nc 程序。
 
 ```gitconfig
@@ -49,6 +50,7 @@ Host github.com
 **Windows 平台**
 
 因为 Windows 的 git minGW 不具备 nc 程序，因此使用 connect 代替。
+
 ```gitconfig
 Host github.com
      User git
